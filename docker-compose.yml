@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  redmine:
+    image: redmine
+    volumes:
+      - ./qualification:/usr/src/redmine/plugins/qualification 
+      - ./redmine-ponderation-plugin:/usr/src/redmine/plugins/ponderation
+    ports:
+      - "8080:3000"
+    networks:
+      - over
+  
+  ri:
+    build: ./oraw2_issue-weight/ri-analytics-rationale-miner-fork
+    networks:
+      - over
+  
+  ss:
+    build: ./oraw2_issue-weight/scikit-sentistrength
+    networks:
+      - over
+  
+  oraw3:
+    build: .
+    environment:
+      - BACKEND_SS=http://ss:8080/issue_weighting
+      - BACKEND_RI=http://ri:9704/issue_weighting
+    networks:
+      - over
+
+networks:
+  over:
