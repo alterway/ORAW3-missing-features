@@ -4,10 +4,10 @@ services:
   redmine:
     image: redmine
     volumes:
-      - ./qualification:/usr/src/redmine/plugins/qualification 
+      - ./redmine-qualification-plugin:/usr/src/redmine/plugins/qualification 
       - ./redmine-ponderation-plugin:/usr/src/redmine/plugins/ponderation
     ports:
-      - "8080:3000"
+      - "3000:3000"
     networks:
       - over
   

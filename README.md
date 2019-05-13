@@ -9,3 +9,10 @@ returns:
         "intent": "Demand"
     }
 }
+
+## demo
+
+git --recursive-submodules clone
+// copy sentistrength
+docker-compose up
+// 
