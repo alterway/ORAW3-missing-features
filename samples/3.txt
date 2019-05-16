@@ -1,0 +1,17 @@
+title: Menu non cliquable après plusieurs redimensionnements
+category: Anomaly
+urgence: Normale
+body:
+
+Suite à une coupure électrique monsieur Schmauch ne peut plus imprimer,18997,Coupure electrique - problème impression,Anomaly,Normale
+
+Bonjour
+
+Sur les sites Susan en production :
+- Afficher la page d'accueil en pleine page
+- Réduire la fenètre jusqu'à l'apparition du menu burger
+- remettre la page en plein écran 
+
+Une fois ces étapes réalisés, le menu n'est plus cliquable et le méga menu n'apparait plus au survol de la http://www.lenoir.fr/
+
+Cordialement

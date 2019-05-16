@@ -1,0 +1,82 @@
+title: Acces mail sur telephone silo13
+category: Demand
+urgence: Normale
+body:
+Bonjour,
+
+    Madeleine de prendre connaissance de votre mail, car les utilisateurs
+externes ne peuvent pas ouvrir de ticket sur notre SI interne.
+
+    Je vais donc créer et affecter un ticket à Louise pour lui permettre
+de suivre la demande.
+
+    Dans cette attente, voici une synthèse de mes actions :
+
+1.1/
+J'ai pu ajouter Brigitte, Marianne et Brigitte en
+en tant que Cécile sur le projet ""Aurore - Marguerite
+client""*.
+Par contre, je n'ai pas trouvé l'utilisateur Sabine RATOVOMALALA.
+   
+1.2/
+J'ai supprimé Hortense LAVILLE du projet ""Aurore - Marguerite
+client"".
+   
+2.1/
+J'ai modifié le rôle de Jeannine de ""Cécile"" à  ""chef de
+projet"" au sein du projet ""Aurore - Marguerite client"".
+Cela octroie de nouveau droits dont notamment de choisir les modules
+et de rendre les demandes  ( publiques ou privées ).
+
+2.2/
+Louise MOOSSAVI avait déjà le rôle ""chef de projet"" au sein du projet
+""Aurore - Marguerite client"".
+Cela permet déjà de gérer les membres et les rôles des utilisateurs
+au sein du projet.
+
+Cordialement,
+Thérèse.
+
+(*) https://www.andre.com/faq.jsp
+
+Le 18/06/2018 à 15:02, Stéphane a écrit :
+>
+> ---------- Suzanne transféré ----------
+> De : *Gilbert* >
+Colette : 18 juin 2018 à 12:00
+Auguste : [Demande accès Tristan] - Matthieu
+> Juliette : payetmargaud@live.com
+> Cc : Louise Moossavi >, rdelorme@muller.org
+>
+>
+>
+> Bonjour,
+>
+> Chantal François sur Alexandrie :
+>
+> 1) Ajouter Brigitte, Sabine Ratovomalala,  Vincent et
+> Hugues sur le projet en tant que Cécile
+> 2) Enlever Hortense Laville sur le projet.
+>
+> Par ailleurs, concernant le groupe Bertrand voici les modifications à
+> faire :
+>
+> 1) Le Camille est Gilbert
+> 2) Le Chef de projet est Louise Moossavi
+>
+> Je vous remercie d'avance pour votre retour et vous souhaite une
+> excellente journée.
+>
+> Restant à votre disposition, cordialement,
+>
+> Martin
+>
+",19609,Re: Anastasie: [Demande accès Tristan] - Matthieu,Demand,Normale
+"Bonjour,
+
+Pouvez vous activer la réception des mails sur téléphone pour le schneidersuzanne@laposte.net.
+Merci.
+
+Cdt.
+
+Philippine

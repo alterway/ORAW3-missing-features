@@ -1,0 +1,11 @@
+title: Création d'adresse mail alterway.fr
+category: Demand
+urgence: Normale
+body:
+Bonjour,
+
+Pour mener à bien le projet Élisabeth, nous avons besoin de créer des adresses mails en ""@alterway.fr"" à 2 membres de notre prestataire ""Alexandre"" :
+- Benjamin : gilbert33@noos.fr
+
+- Louis : victoireruiz@laposte.net
+Merci beaucoup d'avance",20336,
