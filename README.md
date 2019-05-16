@@ -23,6 +23,7 @@ git clone --recurse-submodules https://git.rnd.alterway.fr/overboard/openreq/ora
 Set the submodules on the oraw branch.
 
 ```bash
+cd oraw3_missing-features
 cd redmine-ponderation-plugin
 git checkout oraw
 cd ../redmine-qualification-plugin
@@ -46,7 +47,7 @@ docker load -i oraw3missingfeatures_ri_warm.tar
 Launch the demo
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 From there you should be able to connect to [Redmine](localhost:3000).
@@ -66,7 +67,7 @@ The newly created issues are automatically classified with 3 fields:
 Launch the demo with the following command instead:
 
 ```bash
-docker-compose up --build
+docker-compose -f docker-compose.raw.yml up
 ```
 
 Create the initial configuration of your Redmine instance, please refer to [redmine.org](https://redmine.org) for additional documentation.

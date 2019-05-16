@@ -2,8 +2,7 @@ version: "3"
 
 services:
   redmine:
-#    image: redmine
-    image: oraw3missingfeatures_redmine_1_configured
+    image: redmine
     volumes:
       - ./redmine-qualification-plugin:/usr/src/redmine/plugins/qualification 
       - ./redmine-ponderation-plugin:/usr/src/redmine/plugins/ponderation
@@ -13,8 +12,7 @@ services:
       - over
   
   ri:
-#    build: ./oraw2_issue-weight/ri-analytics-rationale-miner-fork
-    image: oraw3missingfeatures_ri_1_warm
+    build: ./oraw2_issue-weight/ri-analytics-rationale-miner-fork
     networks:
       - over
   
