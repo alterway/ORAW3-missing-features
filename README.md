@@ -37,6 +37,12 @@ Copy `SentiStrengthCom.jar` in `oraw2_issue-weight/scikit-sentistrength`. Note t
 cp ??? oraw2_issue-weight/scikit-sentistrength/SentiStrengthCom.jar
 ```
 
+Log in to our GitLab’s Container Registry:
+
+```bash
+docker login hub.rnd.alterway.fr
+```
+
 Launch the demo
 
 ```bash
