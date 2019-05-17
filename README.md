@@ -52,7 +52,7 @@ docker-compose up -d
 
 From there you should be able to connect to [Redmine](localhost:3000).
 
-The default username and password is `admin`.
+The default username is `admin` and the password is `password`.
 
 You can create a new issue in the preconfigured project "test1". Issue samples are provided in the samples directory.
 

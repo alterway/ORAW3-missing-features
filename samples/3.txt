@@ -2,9 +2,6 @@ title: Menu non cliquable après plusieurs redimensionnements
 category: Anomaly
 urgence: Normale
 body:
-
-Suite à une coupure électrique monsieur Schmauch ne peut plus imprimer,18997,Coupure electrique - problème impression,Anomaly,Normale
-
 Bonjour
 
 Sur les sites Susan en production :
