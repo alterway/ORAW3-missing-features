@@ -37,13 +37,6 @@ Copy `SentiStrengthCom.jar` in `oraw2_issue-weight/scikit-sentistrength`. Note t
 cp ??? oraw2_issue-weight/scikit-sentistrength/SentiStrengthCom.jar
 ```
 
-Load the Preconfigured images.
-
-```bash
-docker load -i oraw3missingfeatures_redmine_configured.tar
-docker load -i oraw3missingfeatures_ri_warm.tar
-```
-
 Launch the demo
 
 ```bash

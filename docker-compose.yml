@@ -3,7 +3,7 @@ version: "3"
 services:
   redmine:
 #    image: redmine
-    image: oraw3missingfeatures_redmine_1_configured
+    image: hub.rnd.alterway.fr/overboard/openreq/oraw3_missing-features/oraw3missingfeatures_redmine_1_configured:1
     volumes:
       - ./redmine-qualification-plugin:/usr/src/redmine/plugins/qualification 
       - ./redmine-ponderation-plugin:/usr/src/redmine/plugins/ponderation
@@ -14,7 +14,7 @@ services:
   
   ri:
 #    build: ./oraw2_issue-weight/ri-analytics-rationale-miner-fork
-    image: oraw3missingfeatures_ri_1_warm
+    image: hub.rnd.alterway.fr/overboard/openreq/oraw3_missing-features/oraw3missingfeatures_ri_1_warm:1
     networks:
       - over
   
