@@ -1,9 +1,0 @@
-[submodule "redmine-ponderation-plugin"]
-	path = redmine-ponderation-plugin
-	url = https://git.rnd.alterway.fr/overboard/machine_learning/redmine-ponderation-plugin
-[submodule "redmine-qualification-plugin"]
-	path = redmine-qualification-plugin
-	url = https://git.rnd.alterway.fr/overboard/machine_learning/redmine-qualification-plugin
-[submodule "oraw2_issue-weight"]
-	path = oraw2_issue-weight
-	url = https://git.rnd.alterway.fr/overboard/openreq/oraw2_issue-weight

@@ -17,18 +17,7 @@ For quick testing purpose, this version of the demo is already configured.
 Clone this repository with his submodules.
 
 ```bash
-git clone --recurse-submodules https://git.rnd.alterway.fr/overboard/openreq/oraw3_missing-features
-```
-
-Set the submodules on the oraw branch.
-
-```bash
-cd oraw3_missing-features
-cd redmine-ponderation-plugin
-git checkout oraw
-cd ../redmine-qualification-plugin
-git checkout oraw
-cd ..
+git clone https://git.rnd.alterway.fr/overboard/openreq/oraw3_missing-features
 ```
 
 Copy `SentiStrengthCom.jar` in `oraw2_issue-weight/scikit-sentistrength`. Note that sentistrength.jar is not included in this repository since it's proprietary software, please refer to [this](http://sentistrength.wlv.ac.uk/) site.
