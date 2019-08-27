@@ -1,5 +1,8 @@
-title: Susan onedrive
-category: Demand
-urgence: Basse
+title: Moteurs de recherche Pénélope
+category: Anomaly
+urgence: Haute
 body:
-Des dossiers ne se synchronisent pas
+Bonjour,
+les moteurs de recherche de prod semblent Laurent.
+par exemple, en faisant une recherche sur le mot ""hydrocarbures"", on obtient une erreur inattendue: http://gregoire.fr/privacy.html
+merci de bien vouloir faire le nécessaire pour permettre de rétablir le fonctionnement normal en priorité maximale.

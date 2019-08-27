@@ -39,9 +39,7 @@ def predict_tracker():
             headers={'content-type': 'application/json'})
 
         resp = urllib.request.urlopen(req).read().decode('utf8')
-
-        if json.loads(resp)[0] != 'Demand':
-            return jsonify({'topScoringIntent': {'intent': 'Human'}})
+        return jsonify({'topScoringIntent': {'intent': json.loads(resp)[0]}})
 
     return jsonify({'topScoringIntent': {'intent': 'Demand'}})
 

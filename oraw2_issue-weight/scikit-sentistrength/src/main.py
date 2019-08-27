@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 
-from classifier import run
+from classifier import run_ternary
 
 app = Flask(__name__)
 
@@ -13,7 +13,7 @@ def predict():
     except Exception as e:
         return 'bad input or could not process.', 400
 
-    return jsonify(run('oraw1_15k', query).tolist())
+    return jsonify(run_ternary('oraw1_15k', query))
 
 @app.route('/healthcheck')
 def healthcheck():

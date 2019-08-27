@@ -3,7 +3,7 @@ FROM python:3.6
 RUN apt-get update
 RUN apt-get install -y default-jre
 
-RUN pip install scikit-learn==0.20.3 pandas flask gunicorn
+RUN pip install scikit-learn==0.21.1 pandas flask gunicorn
 
 WORKDIR /app/src
 COPY SentiStrengthCom.jar /app/sentiStrengthCom.jar
