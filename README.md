@@ -6,7 +6,7 @@ This repository provides a pipeline system using [ORAW2 issue-weight](https://gi
 
 The explanation of our pipeline and the result returned are documented [here](doc/pipeline.md).
 
-## Demo
+## Demo
 
 We provide a demo showcasing a Redmine integration of our system.
 
