@@ -2,6 +2,8 @@
 
 This repository provides a pipeline system using [ORAW2 issue-weight](https://git.rnd.alterway.fr/overboard/openreq/oraw2_issue-weight) algorithms to improves the precision of the system. This pipeline allows the intervention of humans operators to qualify ambiguous cases.
 
+This service was created as a result of the OpenReq project funded by the European Union Horizon 2020 Research and Innovation programme under grant agreement No 732463.
+
 ## Pipeline structure
 
 The explanation of our pipeline and the result returned are documented [here](doc/pipeline.md).
@@ -77,3 +79,8 @@ Urgence     http://oraw3:8081/urgence
 ```
 
 Finally, activate both `auto qualification` and `auto ponderation` modules in the projects of your choice.
+
+
+## License
+
+Free use of this software is granted under the terms of the EPL version 2 (EPL2.0).
