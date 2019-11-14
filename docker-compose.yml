@@ -1,0 +1,35 @@
+version: "3"
+
+services:
+  redmine:
+#    image: redmine
+    image: hub.rnd.alterway.fr/overboard/openreq/oraw3_missing-features/oraw3missingfeatures_redmine_1_configured:1
+    volumes:
+      - ./redmine-qualification-plugin:/usr/src/redmine/plugins/qualification 
+      - ./redmine-ponderation-plugin:/usr/src/redmine/plugins/ponderation
+    ports:
+      - "3000:3000"
+    networks:
+      - over
+  
+  ri:
+#    build: ./oraw2_issue-weight/ri-analytics-rationale-miner-fork
+    image: hub.rnd.alterway.fr/overboard/openreq/oraw3_missing-features/oraw3missingfeatures_ri_1_warm:1
+    networks:
+      - over
+  
+  ss:
+    build: ./oraw2_issue-weight/scikit-sentistrength
+    networks:
+      - over
+  
+  oraw3:
+    build: .
+    environment:
+      - BACKEND_SS=http://ss:8080/issue_weighting
+      - BACKEND_RI=http://ri:9704/issue_weighting
+    networks:
+      - over
+
+networks:
+  over:
